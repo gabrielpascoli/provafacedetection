@@ -37,11 +37,11 @@ while video_capture.isOpened():
     # Salvar o frame com as faces identificadas no vídeo de saída
     output_video.write(frame)
 
-    # Verificar se o usuário pressionou a tecla 'q' para sair
+    # aperte q para sair 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# Liberar os recursos
+
 video_capture.release()
 output_video.release()
 cv2.destroyAllWindows()
