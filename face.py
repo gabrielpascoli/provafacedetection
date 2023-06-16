@@ -34,7 +34,7 @@ while video_capture.isOpened():
     # Exibir o frame com as faces identificadas
     cv2.imshow('Video', frame)
     
-    # Salvar o frame com as faces identificadas no vídeo de saída
+    # Salva o frame com as faces identificadas no vídeo de saída
     output_video.write(frame)
 
     # aperte q para sair 
