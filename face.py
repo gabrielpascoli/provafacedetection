@@ -4,7 +4,7 @@ import cv2
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 # Abrir o vídeo de entrada
-video_capture = cv2.VideoCapture('input_video.mp4')
+video_capture = cv2.VideoCapture('arsene.mp4')
 
 # Obter as propriedades do vídeo de entrada
 fps = video_capture.get(cv2.CAP_PROP_FPS)
